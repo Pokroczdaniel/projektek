@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  justify-content: center;
+  background-color: #353638;
+  color: white;
+}
+.nav li{
+  display: inline-block;
+  margin-left: 2rem;
+  list-style: none;
+}
+.nav li a{
+  color: white;
+  text-decoration: none;
+}
+.nav li a:hover{
+  font-weight: bold;
+}
+.cim{
+  background: black;
+}
+h1{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 23em;
+  background-color: black;
+  background: url('../kepek/kep1.jpeg');
+  background-size: cover;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#elohely{
+  background: #0079bf;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+#elohely p{
+  text-align: justify;
+}
+h2{
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+#felepites{
+  background: rgba(0,0,0,0.7)url('../kepek/kep2.jpeg');
+  background-size: inherit;
+  background-position: center;
+  background-blend-mode:darken;
+  color: white;
+  padding-bottom: 3rem;
+}
+#felepites h2{
+  margin-bottom: 3rem;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#felepites p{
+  text-align: center;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+#rendszertan{
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+  background: #b3b3b3;
+}
+#rendszertan tr td{
+  padding-bottom: 0.4rem;
+  padding-right: 2rem;
+  border-bottom: 3px solid black;
+  justify-content: center;
+}
+#rendszertan tr td:nth-child(even){
+  font-style: italic;
+}
+#rendszertan p{
+  margin-top: 2rem;
+}
