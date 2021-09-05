@@ -21,7 +21,7 @@
   text-decoration: none;
 }
 .nav li a:hover{
-  font-weight: bold;
+  color: red;
 }
 .cim{
   background: black;
