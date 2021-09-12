@@ -1,3 +1,9 @@
+'''
+Egy fordító program.
+Meg kell adni, hogy angolról vagy magyarról fordítanánk.
+Egy fájlból keresi ki az adott fordítandó kifejezést.
+Ha nem találja, megadhatjuk a fordítás megefelelő kifejezését, majd hozzáadja a fájlhoz, megjegyzi ezt.
+'''
 angolmagyar=open('angolmagyar.txt', 'r')
 angol=[]
 magyar=[]
