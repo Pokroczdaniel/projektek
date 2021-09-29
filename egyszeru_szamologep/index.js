@@ -528,7 +528,3 @@ function egyenlo(){
   kovetszam=""
   szamlenyomva=false
 }
-if (vegeredmenylenyomva && szamlenyomva){
-  ac()
-  vegeredmenylenyomva=false
-}
